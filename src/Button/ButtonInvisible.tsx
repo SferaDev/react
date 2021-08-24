@@ -5,18 +5,27 @@ import {ComponentProps} from '../utils/types'
 import ButtonBase, {ButtonBaseProps, ButtonSystemProps, buttonSystemProps} from './ButtonBase'
 
 const ButtonInvisible = styled(ButtonBase)<ButtonBaseProps & ButtonSystemProps & SxProp>`
-  color: ${get('colors.text.link')};
+  color: ${get('colors.btn.text')};
   background-color: transparent;
   border: 0;
   border-radius: ${get('radii.2')};
   box-shadow: none;
 
-  &:disabled {
-    color: ${get('colors.text.disabled')};
+  &:hover {
+    background-color: ${get('colors.btn.hoverBg')};
   }
 
   &:focus {
     box-shadow: ${get('shadows.btn.focusShadow')};
+  }
+
+  &:active {
+    background-color: ${get('colors.btn.selectedBg')};
+  }
+
+  &:disabled {
+    background-color: transparent;
+    color: ${get('colors.text.disabled')};
   }
 
   ${buttonSystemProps};
