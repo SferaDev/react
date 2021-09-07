@@ -28,6 +28,7 @@ exports[`AnchoredOverlay renders consistently 1`] = `
   -webkit-text-decoration: none;
   text-decoration: none;
   text-align: center;
+  outline-offset: 3px;
   font-size: 14px;
   color: #24292e;
   background-color: #fafbfc;
@@ -38,10 +39,6 @@ exports[`AnchoredOverlay renders consistently 1`] = `
 .c1:hover {
   -webkit-text-decoration: none;
   text-decoration: none;
-}
-
-.c1:focus {
-  outline: none;
 }
 
 .c1:disabled {
@@ -59,7 +56,6 @@ exports[`AnchoredOverlay renders consistently 1`] = `
 
 .c1:focus {
   border-color: rgba(27,31,35,0.15);
-  box-shadow: 0 0 0 3px rgba(3,102,214,0.3);
 }
 
 .c1:active {
@@ -123,6 +119,7 @@ Object {
   -webkit-text-decoration: none;
   text-decoration: none;
   text-align: center;
+  outline-offset: 3px;
   font-size: 14px;
   color: #24292e;
   background-color: #fafbfc;
@@ -133,10 +130,6 @@ Object {
 .c1:hover {
   -webkit-text-decoration: none;
   text-decoration: none;
-}
-
-.c1:focus {
-  outline: none;
 }
 
 .c1:disabled {
@@ -154,7 +147,6 @@ Object {
 
 .c1:focus {
   border-color: rgba(27,31,35,0.15);
-  box-shadow: 0 0 0 3px rgba(3,102,214,0.3);
 }
 
 .c1:active {
@@ -242,7 +234,7 @@ Object {
       <button
         aria-haspopup="true"
         aria-labelledby="__primer_id_10007"
-        class="ButtonBase-sc-181ps9o-0 Button-xjtz72-0 jhgDtb"
+        class="ButtonBase-sc-181ps9o-0 Button-xjtz72-0 gpFBsa"
         id="__primer_id_10007"
         tabindex="0"
       >
