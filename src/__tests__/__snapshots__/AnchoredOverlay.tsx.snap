@@ -198,6 +198,7 @@ Object {
         </button>
         <div
           id="__primerPortalRoot__"
+          style="position: absolute; top: 0px; left: 0px;"
         >
           <div
             style="position: relative; z-index: 1;"
@@ -207,7 +208,7 @@ Object {
               data-focus-trap="active"
               height="auto"
               role="none"
-              style="--styled-overlay-visibility: visible; top: 4px; left: 0px;"
+              style="top: 4px; left: 0px; --styled-overlay-visibility: visible;"
               width="auto"
             >
               <button
@@ -242,16 +243,17 @@ Object {
       </button>
       <div
         id="__primerPortalRoot__"
+        style="position: absolute; top: 0px; left: 0px;"
       >
         <div
           style="position: relative; z-index: 1;"
         >
           <div
-            class="Overlay__StyledOverlay-jhwkzw-0 kVoHwu"
+            class="Overlay__StyledOverlay-jhwkzw-0 cWgXnb"
             data-focus-trap="active"
             height="auto"
             role="none"
-            style="--styled-overlay-visibility: visible; top: 4px; left: 0px;"
+            style="top: 4px; left: 0px; --styled-overlay-visibility: visible;"
             width="auto"
           >
             <button

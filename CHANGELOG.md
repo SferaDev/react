@@ -1,5 +1,29 @@
 # @primer/components
 
+## 28.5.0
+
+### Minor Changes
+
+- [#1398](https://github.com/primer/react/pull/1398) [`e4dac575`](https://github.com/primer/react/commit/e4dac575420c05e5e7528fd004c85c54f1b9a450) Thanks [@jfuchs](https://github.com/jfuchs)! - Default portal containers created by primer are absolutely positioned at 0,0
+
+* [#1385](https://github.com/primer/react/pull/1385) [`5470b61b`](https://github.com/primer/react/commit/5470b61b448aeb29e859766ca0ff7f9f8457c690) Thanks [@jfuchs](https://github.com/jfuchs)! - Make top and left position explicit props of Overlay handled separately from other styles
+
+- [#1388](https://github.com/primer/react/pull/1388) [`83b888f0`](https://github.com/primer/react/commit/83b888f0b325f9370ede9c5d7ac8f70702d6e8ea) Thanks [@jfuchs](https://github.com/jfuchs)! - Overlay takes a portalContainerName prop. This allows overlays with an anchor inside a scrolling container to track with their anchor, so long as the specified portal is also inside that scrolling container.
+
+## 28.4.0
+
+### Minor Changes
+
+- [#1381](https://github.com/primer/react/pull/1381) [`b31f0853`](https://github.com/primer/react/commit/b31f08533e9fd41ebc5dc0e109d09facd975287c) Thanks [@jfuchs](https://github.com/jfuchs)! - AnchoredOverlay positions are set directly on style property
+
+### Patch Changes
+
+- [#1372](https://github.com/primer/react/pull/1372) [`23be0ed7`](https://github.com/primer/react/commit/23be0ed7aeff3cc21a678769eb5ba0ddf9a8d155) Thanks [@jfuchs](https://github.com/jfuchs)! - Extends DropdownMenu to allow anchorRef, open, and onOpenChange props.
+
+* [#1386](https://github.com/primer/react/pull/1386) [`2ea30b43`](https://github.com/primer/react/commit/2ea30b43854a1dcf5e1c64c696a57d6e1c651bdf) Thanks [@colebemis](https://github.com/colebemis)! - Bump @primer/primitives dependency to 4.6.4
+
+- [#1387](https://github.com/primer/react/pull/1387) [`6b4d52da`](https://github.com/primer/react/commit/6b4d52dacbed2e4452e780c01fc9e69d9f9511ee) Thanks [@jfuchs](https://github.com/jfuchs)! - Guard against MediaQueryList.addEventListener calls where unavailable and possibly fall back to .addListener
+
 ## 28.3.2
 
 ### Patch Changes
